@@ -1,5 +1,4 @@
 ---
-import Disqus from '@components/Disqus.astro'
 import Footer from '@components/Footer.astro'
 import Navbar from '@components/Navbar.astro'
 import BackToTop from '@components/control/BackToTop.astro'
@@ -21,8 +20,6 @@ interface Props {
   headings? : MarkdownHeading[]
 }
 
-const pageUrl = Astro.url.href; // Harus URL lengkap halaman
-const pageIdentifier = Astro.props.slug || "default-identifier";
 const { title, banner, description, lang, setOGTypeArticle, headings = [] } = Astro.props
 const hasBannerCredit =
   siteConfig.banner.enable && siteConfig.banner.credit.enable
@@ -78,7 +75,7 @@ const mainPanelTop = siteConfig.banner.enable ? `calc(${BANNER_HEIGHT}vh - ${MAI
                     <!-- make id different from windows.swup global property -->
                     <slot></slot>
                     <!-- start disqus claude -->
-                    <Disqus pageUrl={pageUrl} pageIdentifier={pageIdentifier} />
+
                     <!-- end disqus  -->
                     <div class="footer col-span-2 onload-animation hidden lg:block">
                         <Footer></Footer>
