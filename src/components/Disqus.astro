@@ -4,22 +4,22 @@ const { url } = Astro.props;
 const pathname = new URL(url).pathname;
 ---
 
-<div id="disqus_thread"></div>
-
-<script define:vars={{ url, pathname }}>
+<div id="disqus_thread" class="mt-10 min-h-[300px] w-full"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    
     var disqus_config = function () {
-        this.page.url = url;
-        this.page.identifier = pathname;
+        this.page.url = window.location.href;  // Gunakan URL halaman saat ini
+        this.page.identifier = window.location.pathname; // Gunakan pathname sebagai identifier
     };
     
-    (function() {
+    (function() { // DON'T EDIT BELOW THIS LINE
         var d = document, s = d.createElement('script');
-        s.src = 'https://manhwa-web-id.disqus.com/embed.js'; // Ganti dengan shortname Anda
+        s.src = 'https://manhwa-web-id.disqus.com/embed.js'; // GANTI EXAMPLE dengan shortname Disqus Anda
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();
 </script>
-
-<noscript>
-    Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-</noscript>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
