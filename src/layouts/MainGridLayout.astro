@@ -21,8 +21,8 @@ interface Props {
   headings? : MarkdownHeading[]
 }
 
-const pageUrl = Astro.url.href;
-const pageIdentifier = Astro.props.slug; // Misalnya slug artikel
+const pageUrl = Astro.url.href; // Harus URL lengkap halaman
+const pageIdentifier = Astro.props.slug || "default-identifier";
 const { title, banner, description, lang, setOGTypeArticle, headings = [] } = Astro.props
 const hasBannerCredit =
   siteConfig.banner.enable && siteConfig.banner.credit.enable
