@@ -76,8 +76,8 @@ const mainPanelTop = siteConfig.banner.enable ? `calc(${BANNER_HEIGHT}vh - ${MAI
                     <!-- make id different from windows.swup global property -->
                     <slot></slot>
                     <!-- start disqus claude -->
-                    <div class="mt-10 px-4">
-                        <Disqus url={Astro.url} />
+                    <div class="mt-8 px-4">
+                        <Disqus url={Astro.url.toString()} />
                     </div>
                     <!-- end disqus  -->
                     <div class="footer col-span-2 onload-animation hidden lg:block">
