@@ -13,6 +13,7 @@ import PostMetadata from '../../components/PostMeta.astro'
 import ImageWrapper from '../../components/misc/ImageWrapper.astro'
 import { profileConfig, siteConfig } from '../../config'
 import { formatDateToYYYYMMDD } from '../../utils/date-utils'
+import Disqus from '../../components/Disqus.jsx';
 
 export async function getStaticPaths() {
   const blogEntries = await getCollection('posts', ({ data }) => {
@@ -23,6 +24,11 @@ export async function getStaticPaths() {
     props: { entry },
   }))
 }
+
+// kode disqus
+const pageUrl = Astro.url.href;
+const pageIdentifier = Astro.props.slug;
+// end kode disqus
 
 const { entry } = Astro.props
 const { Content, headings } = await entry.render()

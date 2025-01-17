@@ -1,8 +1,7 @@
 ---
-// Props untuk URL dan identifier halaman
 const { pageUrl, pageIdentifier } = Astro.props;
 ---
-<div id="disqus_thread"></div>
+<div id="disqus_thread" client:load></div>
 <script>
     var disqus_config = function () {
         this.page.url = "{pageUrl}";
@@ -15,7 +14,3 @@ const { pageUrl, pageIdentifier } = Astro.props;
         (d.head || d.body).appendChild(s);
     })();
 </script>
-<noscript>
-    Please enable JavaScript to view the 
-    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-</noscript>
