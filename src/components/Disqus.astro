@@ -1,0 +1,25 @@
+---
+// src/components/Disqus.astro
+const { url } = Astro.props;
+const pathname = new URL(url).pathname;
+---
+
+<div id="disqus_thread"></div>
+
+<script define:vars={{ url, pathname }}>
+    var disqus_config = function () {
+        this.page.url = url;
+        this.page.identifier = pathname;
+    };
+    
+    (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://manhwa-web-id.disqus.com/embed.js'; // Ganti dengan shortname Anda
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+<noscript>
+    Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>

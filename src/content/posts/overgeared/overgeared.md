@@ -19,7 +19,7 @@ draft: false
 - **Author**: Park Saenal  
 - **Illustrator**: Team Argo  
 - **Genres**: Action, Fantasy, Game, Isekai  
-- **Publishing Platform**: [KakaoPage](https://page.kakao.com/content/47050646), Tapas  
+- **Publishing Platform**: KakaoPage, Tapas  
 - **Status Manhwa**: Ongoing  
 - **Status Novel**: Finished (96 Volumes / 2059 Chapters)
 
@@ -54,7 +54,7 @@ Shin Youngwoo, an ordinary and often unlucky player of the VR game **Satisfy**, 
 ---
 
 ## Where to Read Legally
-- **KakaoPage** (Korean)  
+- [**KakaoPage**](https://page.kakao.com/content/47050646) (Korean)  
 - **Tapas** (English)  
 - **Tappytoon** (English)  
 
