@@ -3,7 +3,7 @@ title: Overgeared
 published: 2025-01-17
 # updated: 2024-11-29
 # description: 'Read more about Overgeared'
-image: './overgeared.png'
+image: '/public/img/overgeared/overgeared.jpg'
 tags: [Manhwa]
 category: 'Overgeared'
 draft: false 
@@ -59,6 +59,9 @@ Shin Youngwoo, an ordinary and often unlucky player of the VR game **Satisfy**, 
 - **Tappytoon** (English)  
 
 ---
+
+# Characters
+
 
 ## Conclusion
 *Overgeared* masterfully blends action, adventure, and gaming with compelling storytelling. Grid’s journey from zero to legend is inspiring and filled with thrilling and entertaining moments. If you’re a fan of VR game-themed stories, *Overgeared* is a must-read!
