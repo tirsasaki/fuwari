@@ -8,7 +8,7 @@ tags:
     - nginx
 ---
 
-Securing your OpenSUSE server with SSL is crucial for protecting data and ensuring secure connections. By leveraging Cloudflare's free SSL services, you can simplify this process while enhancing performance and security. This guide will focus on configuring SSL for Nginx on an OpenSUSE server using Cloudflare.
+Securing your `OpenSUSE server` with SSL is crucial for protecting data and ensuring secure connections. By leveraging Cloudflare's free SSL services, you can simplify this process while enhancing performance and security. This guide will focus on configuring SSL for Nginx on an OpenSUSE server using `Cloudflare`.
 
 ---
 
@@ -17,8 +17,10 @@ Securing your OpenSUSE server with SSL is crucial for protecting data and ensuri
 1. **A Domain Name**: Ensure your domain is registered and connected to Cloudflare.
 2. **OpenSUSE Server**: A running instance of OpenSUSE with root or sudo access.
 3. **Cloudflare Account**: An active account with your domain added to Cloudflare.
-4. **Nginx Installed**: Nginx must be installed and running on your server.
+4. **Nginx Installed**: [Nginx](https://www.digicert.com/kb/csr-ssl-installation/nginx-openssl.htm) must be installed and running on your server.
 
+> [!WARNING]
+> Before proceeding with these steps, it is highly recommended to back up all critical files and configurations on your server. This ensures that you can restore your system in case something goes wrong during the setup process.
 ---
 
 ### Step 1: Update Your OpenSUSE Server
