@@ -20,7 +20,7 @@ Our blog focuses on various aspects of linux, including:
 
 Feel free to reach out with questions, suggestions, or topics you'd like us to cover. Your feedback helps us create better content and build a stronger linux community.
 
-*Empowering your `linux journey`, one article at a time.*
+> *Empowering your `linux journey`, one article at a time.*
 
 ### Latest linux news
 - [Constellation Linux](https://conslinux.com/)
