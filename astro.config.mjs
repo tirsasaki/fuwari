@@ -53,7 +53,21 @@ export default defineConfig({
       },
     }),
     svelte(),
-    sitemap(),
+    sitemap({
+      filter: (page) => page?.url ? !page.url.includes('script') : true,
+      changefreq: 'weekly',
+      priority: 0.7,
+      lastmod: new Date(),
+      serialize: (item) => {
+          if (!item?.url) return null;
+          return {
+              url: item.url,
+              changefreq: 'weekly',
+              priority: 0.7,
+              lastmod: new Date()
+          };
+      }
+  }),
     Compress({
       CSS: false,
       Image: false,
