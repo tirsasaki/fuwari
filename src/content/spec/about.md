@@ -11,8 +11,8 @@ Our blog focuses on various aspects of linux, including:
 
 - Detailed tutorials and step-by-step guides for linux `installation` and `configuration`
 - System administration best practices and troubleshooting tips
-- Server management and security hardening techniques
-- Command line mastery and shell scripting
+- `Server management` and `security` hardening techniques
+- `Command line` mastery and shell scripting
 - Open-source software reviews and recommendations
 - Latest updates and trends in the *linux community*
 
@@ -21,6 +21,8 @@ Our blog focuses on various aspects of linux, including:
 Feel free to reach out with questions, suggestions, or topics you'd like us to cover. Your feedback helps us create better content and build a stronger linux community.
 
 > *Empowering your `linux journey`, one article at a time.*
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y46RPPH)
 
 ### Latest linux news
 - [Constellation Linux](https://conslinux.com/)
