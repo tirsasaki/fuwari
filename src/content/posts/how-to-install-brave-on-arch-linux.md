@@ -9,6 +9,8 @@ tags:
 
 [Brave Browser](https://aur.archlinux.org/packages/brave-bin) is a privacy-focused, fast, and secure web browser that blocks ads and trackers by default. If you're an Arch Linux user, installing Brave is straightforward. This guide will show you step-by-step how to install Brave on your Arch Linux system.
 
+---
+
 ## Prerequisites
 - A system running `Arch Linux` or an Arch-based distribution like Manjaro.
 - Basic knowledge of using the terminal.
@@ -65,6 +67,9 @@ makepkg -si
 Yes, Brave Browser is safe to use. It prioritizes user privacy and comes with built-in ad and tracker blocking features.
 3. How do I update Brave Browser on Arch Linux?
 If you installed Brave via Yay, updating it is as simple as running: `yay -Syu`
+
+---
+
 ## Conclusion
 Installing Brave Browser on Arch Linux is quick and easy, especially with the help of an AUR helper like Yay. Whether you’re looking for a secure browser or a privacy-centric alternative, Brave is a solid choice for Arch Linux users.
 
