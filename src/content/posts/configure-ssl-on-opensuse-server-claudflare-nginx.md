@@ -22,7 +22,7 @@ Securing your `OpenSUSE server` with SSL is crucial for protecting data and ensu
 > [!WARNING]
 > Before proceeding with these steps, it is highly recommended to back up all critical files and configurations on your server. This ensures that you can restore your system in case something goes wrong during the setup process.
 ---
-
+## Install steps
 ### Step 1: Update Your OpenSUSE Server
 
 Start by updating your server packages:
