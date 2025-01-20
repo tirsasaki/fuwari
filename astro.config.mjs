@@ -18,15 +18,17 @@ import { GithubCardComponent } from "./src/plugins/rehype-component-github-card.
 import { parseDirectiveNode } from "./src/plugins/remark-directive-rehype.js";
 import { remarkExcerpt } from "./src/plugins/remark-excerpt.js";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
-import googleAnalytics from 'astro-google-analytics';
+import partytown from '@astrojs/partytown';
 // https://astro.build/config
 export default defineConfig({
   site: "https://netalynx.web.id/",
   base: "/",
   trailingSlash: "always",
   integrations: [
-    googleAnalytics({
-      id: 'G-9D3XBN9T08', // Ganti dengan ID Google Analytics Anda
+    partytown({
+      config: {
+        forward: ["dataLayer.push"],
+      },
     }),
     tailwind(
         {
