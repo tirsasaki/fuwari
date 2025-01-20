@@ -147,11 +147,11 @@ sudo systemctl restart nginx
 
 ## FAQs
 
-1. Why use Cloudflare's SSL instead of a traditional SSL provider? <br>
+1. **Why use Cloudflare's SSL instead of a traditional SSL provider?**<br>
 Cloudflare's SSL is free and provides additional features like DDoS protection, content caching, and performance optimization.
 
-2. What does the `return 301 https://$host$request_uri;` line do in the Nginx configuration? <br>
+2. **What does the `return 301 https://$host$request_uri;` line do in the Nginx configuration?** <br>
 It redirects all HTTP traffic to HTTPS, ensuring secure connections to your site.
 
-3. Can I use this guide for other Linux distributions? <br>
+3. **Can I use this guide for other Linux distributions?** <br>
 Yes, but package management and configuration paths may differ. Adjust commands accordingly for distributions like Ubuntu or CentOS.
