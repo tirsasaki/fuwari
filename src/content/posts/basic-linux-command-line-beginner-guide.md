@@ -8,7 +8,7 @@ tags:
 
 Linux is a powerful operating system widely used for servers, development environments, and personal computing. To fully harness its potential, mastering the command line is crucial. Here’s a beginner-friendly guide to help you navigate the basic Linux commands.
 
-**Why Learn Linux Command Line?**
+**Why Learn Linux Command Line?** <br> 
 The Linux command line gives you direct control over the system, enabling you to perform tasks more efficiently and automate processes. It’s a skill that boosts productivity and is highly valued in the tech industry.
 
 ---
