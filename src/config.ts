@@ -53,7 +53,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/neta-lynx-pp.png', 
   name: 'Neta Lynx',
-  bio: 'Linux Specialist.',
+  bio: 'A place to share Linux tutorials, web developers, DevOps and others.',
   links: [
     {
       name: 'Twitter',

@@ -23,8 +23,8 @@ Feel free to reach out with questions, suggestions, or topics you'd like us to c
 > *Empowering your `linux journey`, one article at a time.*
 
 > [!TIP]
-> [Ko-Fi](https://ko-fi.com/Y8Y46RPPH) <br>
-> [Paypal](https://www.paypal.com/ncp/payment/T5NTUW6ACKX4U)
+> [Buy Me a Coffee (ko-fi)](https://ko-fi.com/Y8Y46RPPH) <br>
+> [Treat With Style (Paypal)](https://www.paypal.com/ncp/payment/T5NTUW6ACKX4U)
 
 ### Latest linux news
 - [Constellation Linux](https://conslinux.com/)
