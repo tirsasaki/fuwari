@@ -56,6 +56,9 @@ importers:
       astro-compress:
         specifier: ^2.3.5
         version: 2.3.5(@types/node@22.10.1)(jiti@1.21.6)(rollup@2.79.2)(sass@1.80.4)(stylus@0.63.0)(typescript@5.7.2)(yaml@2.6.1)
+      astro-google-analytics:
+        specifier: ^1.0.3
+        version: 1.0.3
       astro-icon:
         specifier: ^1.1.4
         version: 1.1.4
@@ -1949,6 +1952,9 @@ packages:
 
   astro-compress@2.3.5:
     resolution: {integrity: sha512-TWZr/7IbIyi5e4vjuVN8UgkKMOhFqH25466Ct1jIG9UoDz50uNP5iPFQ2zPqO/Oe2541kYU7CchZt7cJ32w0Wg==}
+
+  astro-google-analytics@1.0.3:
+    resolution: {integrity: sha512-5bD7jA15yxVaUFVVEFG6KKMphYJ4AKP4+HSqCVBpTBnqh8LL0giTdAHpG9KJs3JaFbGQUTWP5Pqt8+twz7f55Q==}
 
   astro-icon@1.1.4:
     resolution: {integrity: sha512-sMLkQaevIQLv38WBzb/RDbsmxhg5+X+KcNmpTi9cE6MLurNWU1MPnlO87d9Vwg4HxTenKpDlYp81A3syXFW/gw==}
@@ -7078,6 +7084,8 @@ snapshots:
       - typescript
       - uploadthing
       - yaml
+
+  astro-google-analytics@1.0.3: {}
 
   astro-icon@1.1.4:
     dependencies:
