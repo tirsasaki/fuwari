@@ -52,14 +52,13 @@ By mastering Netstat and Nmap, you can enhance your network monitoring efforts a
 
 ---
 
-### FAQ
+## FAQ
 
-1: **What are the primary differences between Netstat and Nmap?** <br>
+1. **What are the primary differences between Netstat and Nmap?** <br>
 Netstat focuses on real-time monitoring of local network connections, while Nmap is designed for scanning and analyzing entire networks.
 
-2: **Can I use Nmap on a live network without disrupting services?** <br>
+2. **Can I use Nmap on a live network without disrupting services?** <br>
 Yes, Nmap offers non-intrusive scanning options. However, ensure you have permission before scanning any network.
 
-3: **Are Netstat and Nmap suitable for beginners?** <br>
+3. **Are Netstat and Nmap suitable for beginners?** <br>
 Both tools have beginner-friendly commands, but understanding their outputs may require some networking knowledge.
-
