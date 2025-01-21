@@ -30,7 +30,7 @@ The `top` command is one of the most common tools for monitoring processes in re
 
 ### Installing `htop`
 To install `htop`, run:
-```
+```bash
 sudo apt install htop  # For Debian/Ubuntu
 sudo yum install htop  # For CentOS/Red Hat
 ```
@@ -50,7 +50,7 @@ The `ps` command provides a snapshot of processes at a specific moment. Unlike `
 - `ps -ef`: Shows processes in a different format, including their parent-child relationships.
 
 To filter processes, combine `ps` with `grep`:
-```
+```bash
 ps aux | grep <process_name>
 ```
 ---
