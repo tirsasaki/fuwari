@@ -1,0 +1,50 @@
+---
+import MainGridLayout from '@layouts/MainGridLayout.astro';
+import { Icon } from 'astro-icon/components';
+
+const title = "404: Page Not Found";
+const description = "Oops! The page you're looking for doesn't exist.";
+---
+
+<MainGridLayout title={title} description={description}>
+    <div class="flex flex-col items-center justify-center min-h-[50vh] px-4 text-center">
+        <div class="space-y-8">
+            {/* Error Code */}
+            <div class="relative">
+                <h1 class="text-9xl font-bold tracking-wider text-[oklch(0.5_0.14_var(--hue))] opacity-10">
+                    404
+                </h1>
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <Icon 
+                        name="material-symbols:sentiment-very-dissatisfied-outline-rounded" 
+                        class="w-24 h-24 text-[oklch(0.5_0.14_var(--hue))]"
+                    />
+                </div>
+            </div>
+
+            {/* Error Message */}
+            <div class="space-y-4">
+                <h2 class="text-2xl font-semibold text-[oklch(0.5_0.14_var(--hue))]">
+                    Page Not Found
+                </h2>
+                <p class="text-lg opacity-75 dark:opacity-60">
+                    The page you're looking for doesn't exist or has been moved.
+                </p>
+            </div>
+
+            {/* Back to Home Button */}
+            <div class="pt-4">
+                <a 
+                    href="/" 
+                    class="inline-flex items-center px-6 py-3 space-x-2 text-base font-medium transition rounded-lg
+                    bg-[oklch(0.95_0.014_var(--hue))] dark:bg-[oklch(0.2_0.014_var(--hue))]
+                    hover:bg-[oklch(0.9_0.014_var(--hue))] dark:hover:bg-[oklch(0.25_0.014_var(--hue))]
+                    active:scale-95"
+                >
+                    <Icon name="material-symbols:home-outline-rounded" class="w-5 h-5" />
+                    <span>Back to Home</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</MainGridLayout>
