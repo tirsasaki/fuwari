@@ -30,8 +30,9 @@ export const siteConfig: SiteConfig = {
   },
   favicon: [    // Leave this array empty to use the default favicon
       {
-         src: '/public/favicon/favicon.png',    // Path of the favicon, relative to the /public directory
-         sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
+         src: '/favicon/favicon.png',    // Path of the favicon, relative to the /public directory
+         sizes: '32x32',        
+               // perbaikan 
     }
   ]
 }
