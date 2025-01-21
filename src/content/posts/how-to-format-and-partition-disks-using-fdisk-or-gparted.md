@@ -8,7 +8,7 @@ tags:
 ---
 Managing disk partitions is an essential skill for anyone working with Linux systems. Whether you're setting up a new hard drive, resizing existing partitions, or troubleshooting storage issues, tools like `fdisk` and `GParted` are invaluable. This guide will walk you through formatting and partitioning disks using these two powerful tools.
 
-### Why Partitioning Matters
+## Why Partitioning Matters
 Partitioning a disk organizes storage into separate sections, making it easier to manage and optimize performance. It also helps when you need to install multiple operating systems or separate data from the system files.
 
 ---
