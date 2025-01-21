@@ -1,9 +1,8 @@
 ---
 title: "Mastering Linux Package Managers: APT, YUM, DNF, PACMAN and ZYPPER"
 published: 2025-01-21  
-category: 'Command-Line Tools'
+category: 'Package Management'
 tags: 
-    - Package Management
     - Linux Commands  
 ---  
 Managing software on **Linux systems** is a breeze when you understand how to use package managers effectively. This article explores four popular Linux package managers—`APT`, `YUM`, `DNF`, `PACMAN` and `ZYPPER`—detailing their usage and key differences.  
