@@ -21,13 +21,13 @@ tags:
 
 ### Step 1: Update Your System
 Before installing any new package, update your system to ensure all repositories and packages are up-to-date. Open your terminal and run:
-```
+```bash
 sudo pacman -Syu
 ```
 
 ### Step 2: Install Yay (Optional)
 Yay is a popular AUR (Arch User Repository) helper that simplifies installing packages from the AUR. If you don’t have Yay installed, you can do so with:
-```
+```bash
 sudo pacman -S git base-devel
 git clone https://aur.archlinux.org/yay.git
 cd yay
@@ -36,14 +36,14 @@ makepkg -si
 
 ### Step 3: Install Brave Browser
 Brave is available in the AUR. Use Yay to install it:
-```
+```bash
 yay -S brave-bin
 ```
 This command will fetch and install the Brave Browser binary package from the AUR.
 
 ### Step 4: Verify Installation
 Once the installation is complete, verify it by running:
-```
+```bash
 brave
 ```
 The Brave Browser should launch successfully.
@@ -56,16 +56,16 @@ To set Brave as your default browser, follow these steps:
 ---
 
 ## FAQs
-1. Can I install Brave without using an AUR helper like Yay?
+1. **Can I install Brave without using an AUR helper like Yay?** <br>
 Yes, you can manually clone the Brave package from the AUR using git and build it using makepkg. For example:
-```
+```bash
 git clone https://aur.archlinux.org/brave-bin.git
 cd brave-bin
 makepkg -si
 ```
-2. Is Brave Browser safe to use on Arch Linux?
+2. **Is Brave Browser safe to use on Arch Linux?** <br>
 Yes, Brave Browser is safe to use. It prioritizes user privacy and comes with built-in ad and tracker blocking features.
-3. How do I update Brave Browser on Arch Linux?
+3. **How do I update Brave Browser on Arch Linux?** <br>
 If you installed Brave via Yay, updating it is as simple as running: `yay -Syu`
 
 ---
