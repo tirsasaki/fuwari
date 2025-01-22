@@ -115,7 +115,7 @@ async function loadPagefind() {
 }
 loadPagefind() -->
 {import.meta.env.PROD && <script is:inline define:vars={{scriptUrl: url('/pagefind/pagefind.js')}}>
-    window.addEventListener('DOMContentLoaded', async function() {
+    window.addEventListener('DOMContentLoaded', async function() {   
         try {
             const pagefind = await import(scriptUrl);
             await pagefind.options({
