@@ -1,5 +1,5 @@
 ---
-title: 'How to Use iwctl: A Step-by-Step Guide'
+title: 'How to Use iwctl: A Simple Step-by-Step Guide'
 published: 2025-01-19
 category: 'Command-Line Tools'
 tags:
