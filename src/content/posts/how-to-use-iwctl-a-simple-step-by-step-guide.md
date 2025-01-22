@@ -20,18 +20,18 @@ tags:
 
 1. **Open Terminal and Start IWCTL**
 
-```
+```bash
 iwctl
 ```  
 
 2. **List Wireless Devices** <br>
-```
+```bash
 device list 
 ```
 This displays detected Wi-Fi devices.
 
 3. **List Available Wi-Fi Networks**
-```
+```bash
 station <device_name> get-networks 
 ```
 Replace `<device_name>` with your device name.
@@ -39,25 +39,25 @@ Replace `<device_name>` with your device name.
 > **<device_name>** is usually `wlan0`
 
 4. **Connect to a Wi-Fi Network**  
-```
+```bash
 station <device_name> connect SSID 
 ```
 Enter the password when prompted.
 
 5. **Verify Connection**
-```
+```bash
 station <device_name> show 
 ```
 To see connection status
 
 6. **Exit IWCTL**
-```
+```bash
 exit
 ```
 ---
 ## Additional Commands
 To forget a network:
-```
+```bash
 known-networks [SSID] forget
 ```
 
