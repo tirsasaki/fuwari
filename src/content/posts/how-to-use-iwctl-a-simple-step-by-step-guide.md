@@ -34,9 +34,7 @@ This displays detected Wi-Fi devices.
 ```bash
 station <device_name> get-networks 
 ```
-Replace `<device_name>` with your device name.
-> [!TIP] 
-> **<device_name>** is usually `wlan0`
+> Replace `<device_name>` with your device name. 
 
 4. **Connect to a Wi-Fi Network**  
 ```bash
@@ -58,7 +56,7 @@ exit
 ## Additional Commands
 To forget a network:
 ```bash
-known-networks [SSID] forget
+known-networks <SSID> forget
 ```
 
 ## Common Troubleshooting Tips
