@@ -1,12 +1,10 @@
 ---
 title: 'How to Set Up SSH for Remote Login on Linux'
 published: 2025-01-22
-category: 'Linux Tutorials'
+category: 'Networking'
 tags:
   - SSH
   - Remote Login
-  - Linux
-  - Networking
   - Server Management
 ---
 `Secure Shell (SSH)` is an essential tool for Linux users who need to remotely access and manage servers. In this guide, we’ll dive into how to set up and use SSH for remote login, empowering you to securely connect to your Linux machines from anywhere.
