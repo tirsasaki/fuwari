@@ -1,9 +1,10 @@
 ---
 title: 'Monitor Linux Processes with top, htop, and ps'
 published: 2025-01-21
-category: 'Linux Tutorials'
+update: 2024-01-23
+category: 'System Monitoring'
 tags:
-  - linux, process monitoring, top, htop, ps, system monitoring
+  - process monitoring
 ---
 Monitoring processes is an essential part of managing Linux systems. Tools like `top`, `htop`, and `ps` allow you to gain insights into system performance, identify resource hogs, and troubleshoot issues effectively. In this article, we'll explore how to use these tools to monitor and manage processes on Linux.
 
