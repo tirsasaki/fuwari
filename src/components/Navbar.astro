@@ -103,7 +103,7 @@ function loadButtonScript() {
 loadButtonScript();
 </script>
 
-<!-- {import.meta.env.PROD && <script is:inline define:vars={{scriptUrl: url('/pagefind/pagefind.js')}}>
+{import.meta.env.PROD && <script is:inline define:vars={{scriptUrl: url('/pagefind/pagefind.js')}}>
 async function loadPagefind() {
     const pagefind = await import(scriptUrl)
     await pagefind.options({
@@ -113,24 +113,5 @@ async function loadPagefind() {
     window.pagefind = pagefind
     pagefind.search('')     // speed up the first search
 }
-loadPagefind() -->
-{import.meta.env.PROD && <script is:inline define:vars={{scriptUrl: url('/pagefind/pagefind.js')}}>
-    window.addEventListener('DOMContentLoaded', async function() {   
-        try {
-            const pagefind = await import(scriptUrl);
-            await pagefind.options({
-                'excerptLength': 20
-            });
-            await pagefind.init();
-            window.pagefind = pagefind;
-            // Wrap dalam try-catch untuk menghindari error jika pencarian pertama gagal
-            try {
-                await pagefind.search('');  // speed up the first search
-            } catch (searchError) {
-                console.warn('Initial search failed:', searchError);
-            }
-        } catch (error) {
-            console.error('Failed to load pagefind:', error);
-        }
-    });
+loadPagefind()
 </script>}
