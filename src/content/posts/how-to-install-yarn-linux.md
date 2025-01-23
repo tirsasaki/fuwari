@@ -1,10 +1,10 @@
 ---
 title: "How to Install Yarn on Linux and Use It Effectively"
 published: 2025-01-23
-category: "Package Manager"
+category: "Installation Guide"
 tags:
   - yarn
-  - web development
+  - package manager
 ---
 
 Yarn is a fast, reliable, and secure dependency manager for JavaScript projects. It simplifies package management and ensures consistency across your development environment. In this guide, we will walk you through the steps to install Yarn on Linux and explore its basic usage.
