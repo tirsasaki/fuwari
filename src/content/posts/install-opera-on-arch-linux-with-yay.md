@@ -9,7 +9,7 @@ tags:
     - browser
 ---
 
-![opera](./img/opera.png)
+![opera](./assets/img/opera.png)
 
 Opera is a sleek, feature-rich browser with built-in ad blocking, a free VPN, and customizable tools, making it an attractive choice for Linux users. However, since Opera is not included in the official Arch Linux repositories, you'll need to install it from the Arch User Repository (AUR). This guide will show you how to do that using the `yay` AUR helper.
 
