@@ -1,7 +1,7 @@
 ---
 title: 'How to Install Opera on Arch Linux Using Yay'
 published: 2025-01-24
-# image: "/src/assets/images/opera.png"
+image: "/img/opera.png"
 description: Opera is a sleek, feature-rich browser with built-in ad blocking, a free VPN, and customizable tools, making it an attractive choice for Linux users.
 category: 'Installation Guide'
 tags: 
