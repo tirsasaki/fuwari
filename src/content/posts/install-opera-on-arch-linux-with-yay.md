@@ -1,7 +1,7 @@
 ---
 title: 'How to Install Opera on Arch Linux Using Yay'
 published: 2025-01-24
-image: "/opera.png"
+image: "/src/assets/images/opera.png"
 category: 'Installation Guide'
 tags: 
     - opera 
