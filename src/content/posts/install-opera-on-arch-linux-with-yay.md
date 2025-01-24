@@ -57,16 +57,6 @@ yay -S opera-beta
 yay -S opera-developer
 ```
 
-```
-❯ yay -S opera
-AUR Explicit (1): opera-116.0.5366.21-1
-:: (1/1) Downloaded PKGBUILD: opera
- 1 opera                                    (Build Files Exist)
-==> Packages to cleanBuild?
-==> [N]one [A]ll [Ab]ort [I]nstalled [No]tInstalled or (1 2 3, 1-3, ^4)
-==> 
-```
-
 ### 4. **Launch Opera**  
 Once the installation is complete, start Opera using:  
 
