@@ -1,7 +1,7 @@
 ---
 title: 'How to Install Opera on Arch Linux Using Yay'
 published: 2025-01-24
-image: "./images/opera.png"
+image: "/assets/images/opera.png"
 category: 'Installation Guide'
 tags: 
     - opera 
@@ -9,7 +9,7 @@ tags:
     - browser
 ---
 
-<img src="./opera.png" alt="Opera After Install" />
+<img src="/src/assets/images/opera.png" alt="Opera After Install" />
 
 Opera is a sleek, feature-rich browser with built-in ad blocking, a free VPN, and customizable tools, making it an attractive choice for Linux users. However, since Opera is not included in the official Arch Linux repositories, you'll need to install it from the Arch User Repository (AUR). This guide will show you how to do that using the `yay` AUR helper.
 

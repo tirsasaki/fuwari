@@ -14,6 +14,7 @@ import ImageWrapper from '../../components/misc/ImageWrapper.astro'
 import { profileConfig, siteConfig } from '../../config'
 import { formatDateToYYYYMMDD } from '../../utils/date-utils'
 import PostComments from "@components/PostComments.astro";
+import { Image } from 'astro:assets' //percobaan
 
 export async function getStaticPaths() {
   const blogEntries = await getCollection('posts', ({ data }) => {
