@@ -6,7 +6,7 @@ category: 'Installation Guide'
 tags: 
     - opera 
     - archlinux
-    - browser
+    - browser 
 ---
 
 <img src="./opera.png" alt="Opera After Install" /> 
