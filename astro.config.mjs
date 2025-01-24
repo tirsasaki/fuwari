@@ -21,8 +21,11 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 import partytown from '@astrojs/partytown';
 // https://astro.build/config
 export default defineConfig({
-  site: "https://netalynx.web.id/",
+  site: "https://netalynx.web.id",
   base: "/",
+  build: {
+    assets: 'public' // or another appropriate path
+  },
   trailingSlash: "always",
   integrations: [
     partytown({
