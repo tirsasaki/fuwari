@@ -23,9 +23,6 @@ import partytown from '@astrojs/partytown';
 export default defineConfig({
   site: "https://netalynx.web.id",
   base: "/",
-  build: {
-    assets: 'public' // or another appropriate path
-  },
   trailingSlash: "always",
   integrations: [
     partytown({
